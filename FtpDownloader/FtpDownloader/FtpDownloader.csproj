@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <PackageReleaseNotes>FTP downloader app</PackageReleaseNotes>
+    <AssemblyVersion>13.0.0.13</AssemblyVersion>
+    <FileVersion>13.0.0.13</FileVersion>
+    <Description>FTP downloader app is usefull for downlading files using FTP protocol ;)</Description>
+    <PackageId>FTP downloader</PackageId>
+    <Authors>FTP downloader Co.Ltd</Authors>
+    <Company>FTP downloader Co.Ltd</Company>
+    <Product>FTP downloader</Product>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="Upload\readme.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
